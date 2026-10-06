@@ -1,0 +1,41 @@
+{
+  "demo-user": [
+    {
+      "memory": "I have 4 years of backend experience and want to improve system design.",
+      "metadata": {
+        "type": "profile",
+        "role": "backend engineer"
+      }
+    }
+  ],
+  "lakshmi": [
+    {
+      "memory": "Candidate target role: backend engineer; experience: 6",
+      "metadata": {
+        "type": "profile",
+        "role": "backend engineer"
+      }
+    },
+    {
+      "memory": "Candidate notes: java",
+      "metadata": {
+        "type": "profile",
+        "role": "backend engineer"
+      }
+    },
+    {
+      "memory": "Question: Here's a sharp but fair interview question for a backend engineer with 6 years of experience:\n\n**Question:** \"We're planning to migrate our existing monolithic backend service to a microservices architecture. One of our existing services is written in Java and uses a homegrown caching layer, which we'd like to replace with a commercial caching solution like Redis.\n\n\"However, before we make this change, we need to address an issue with high CPU utilization on our Java service, which we suspect is caused by the caching layer's poor implementation.\n\n\"Given that we need to fix the CPU issue before we can switch to Redis, and we have a tight deadline to meet, what would you do in this situation? Would you:\n\nA) Take the time to refactor the caching layer to address the CPU issue, even if it takes a few days or weeks?\nB) Implement a quick fix to the caching layer to temporarily alleviate the CPU issue, knowing that it might introduce other problems later on?\nC) Prioritize the migration to Redis and put off addressing the caching layer issue until after the migration is complete?\n\n\"Please justify your answer and explain your thought process.\"\n\n**Why this question?**\n\n* It requires the candidate to demonstrate their ability to make trade-offs between competing goals (fixing the CPU issue vs. migrating to Redis) and prioritize tasks under time pressure.\n* It tests their understanding of the technical implications of each option and their ability to think critically about the potential consequences of each choice.\n* It's a realistic scenario that engineers face in real-world projects, where technical debt and competing priorities are common challenges.\n\n**Evaluation criteria:**\n\n* Clear explanation of the candidate's thought process and decision-making approach.\n* Ability to weigh the pros and cons of each option and justify their choice.\n* Demonstration of technical knowledge and understanding of the caching layer's impact on system performance.\n* Ability to communicate complex technical trade-offs in a clear and concise manner.\nAnswer: I would choose option A",
+      "metadata": {
+        "type": "answer",
+        "role": "backend engineer"
+      }
+    },
+    {
+      "memory": "Question: Here's a revised question that's sharp but fair for a backend engineer with 6 years of experience:\n\n**Question:** \"We're experiencing a sudden spike in traffic to our e-commerce platform, and our current backend service is struggling to keep up, resulting in a significant delay in processing orders. The service is written in Node.js and uses a combination of in-memory caching and a database to store session data.\n\n\"To address the issue, we have two options:\n\nOption A: Implement a session persistence mechanism to store session data in the database, which would require modifying the existing code and introducing additional latency.\n\nOption B: Use a third-party service like AWS ElastiCache to offload session data to a dedicated caching layer, which would require changes to our configuration and potentially introduce additional costs.\n\n\"Given the urgency of the situation and our limited resources, what would you do to resolve the issue, and why?\"\n\n**Evaluation criteria:**\n\n* Ability to weigh the pros and cons of each option and justify their choice.\n* Demonstration of technical knowledge and understanding of caching and session management.\n* Clear explanation of the candidate's thought process and decision-making approach.\n* Ability to communicate complex technical trade-offs in a clear and concise manner.\n\nThis question requires the candidate to think critically about the trade-offs between modifying the existing code, introducing additional dependencies, and potentially adding costs, while also considering the urgency of the situation and the limited resources available.\nAnswer: option B",
+      "metadata": {
+        "type": "answer",
+        "role": "backend engineer"
+      }
+    }
+  ]
+}
