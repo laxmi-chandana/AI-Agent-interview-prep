@@ -1,6 +1,6 @@
 # Interview Coach Agent
 
-An AI-powered interview preparation assistant for technical roles, designed for a hackathon or startup MVP. It simulates realistic interview rounds, adapts to the user's profile, and gives feedback on technical responses in a focused, role-specific way.
+An AI-powered interview preparation assistant for technical roles. It simulates realistic interview rounds, adapts to the user's profile, and gives feedback on technical responses in a focused, role-specific way.
 
 ## Why this project matters
 Candidates often prepare for interviews by memorizing generic questions, but they struggle with:
